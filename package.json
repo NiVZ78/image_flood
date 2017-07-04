@@ -1,0 +1,30 @@
+{
+    "author": "paulniven@aol.com",
+    "dependencies": {
+        "pebble-universal-fb": "^1.0.0"
+    },
+    "keywords": [],
+    "name": "image_flood",
+    "pebble": {
+        "displayName": "IMAGE_FLOOD",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Win98.png",
+                    "name": "IMAGE_WIN98",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "uuid": "16a3f080-f4d6-423c-915b-cec69812bf79",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
