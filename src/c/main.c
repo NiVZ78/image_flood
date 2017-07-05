@@ -104,7 +104,7 @@ static void init(void) {
   // Create main Window
   s_main_window = window_create();
   
-  window_set_background_color(s_main_window, GColorRed);
+  window_set_background_color(s_main_window, GColorClear);
   
   // Set handlers to manage the loading and unloading of elements inside the Window
   window_set_window_handlers(s_main_window, (WindowHandlers) {
@@ -113,7 +113,7 @@ static void init(void) {
   });
 
   // Show the Window on the watch, with animated=true
-  window_stack_push(s_main_window, true);
+  window_stack_push(s_main_window, false);
 
 }
 
